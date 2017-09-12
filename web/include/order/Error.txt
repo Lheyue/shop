@@ -1,0 +1,4 @@
+﻿文件下载网址  =>  文件保存路径
+about:blank  =>  C:\Users\Smith\Desktop\shop.guitarworld.com.cn\images\9dc6bdecbfbc40d082b4ae3ceb8c0471.gif
+http://shop.guitarworld.com.cn/sitestyle/shop/images/text_t_bg.gif  =>  C:\Users\Smith\Desktop\shop.guitarworld.com.cn\images\text_t_bg.gif
+http://shop.guitarworld.com.cn/sitestyle/shop/images/loading.gif  =>  C:\Users\Smith\Desktop\shop.guitarworld.com.cn\images\loading.gif

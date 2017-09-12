@@ -1,0 +1,2 @@
+﻿文件下载网址  =>  文件保存路径
+http://act.cycangcdn.com/img/shop/nav_2.png  =>  C:\Users\liyue\Desktop\act.cycang.com\images\nav_2.png

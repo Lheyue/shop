@@ -1,0 +1,3 @@
+﻿文件下载网址  =>  文件保存路径
+http://www.cycang.com/{{$product_info.figure}}  =>  C:\Users\liyue\Desktop\www.cycang.com\picture\{{$product_info.figure}}
+http://www.cycang.com/{{sk_item.figure}}  =>  C:\Users\liyue\Desktop\www.cycang.com\picture\{{sk_item.figure}}

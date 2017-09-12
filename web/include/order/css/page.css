@@ -1,0 +1,12 @@
+﻿/***分页page***/
+.paging{padding:10px 0;text-align:right;font-size:12px;}
+.paging em{ padding-right:10px;}
+.paging a{ color:#666; background:#f8f8f8; border:1px #ddd solid; padding:0 8px;margin:0 3px;	height:21px;line-height:21px;display:inline-block;text-align:center;vertical-align:middle;}
+.paging a:hover{background:#eee;color:#333; text-decoration:none}
+.paging .pagepre,.paging .pagenext{ width:56px;height:24px; border:none; line-height:24px; text-align:center; padding:0;margin:0 8px;background:url(../images/page-bg.png) no-repeat 0px 0px;}
+.paging .pagepre:hover,.paging .pagenext:hover{background:url(../images/page-bg.png) no-repeat 0px -30px;}
+.paging a span{color:#73797c;}
+.paging .pagecur,.paging .pagecur:hover{color:#fff; background:#0098ff;}
+
+
+

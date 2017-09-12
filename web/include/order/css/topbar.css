@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+*{margin: 0;padding: 0;word-wrap: break-word;}
+pre{white-space: pre-wrap;}
+ul li, .ol li { list-style: none;}
+.wrapper {width:970px;margin:0 auto;}
+/* 顶部导航条 */
+.topbar { width:100%; height:30px; font-size:12px; font-family:Microsoft yahei;color:#333;background:#fff; border-bottom:1px #ccc solid;box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);position:relative; z-index:999}
+.topbar .wrapper{position:relative}
+.topbar .drop-menu h2, .topbar li.user-more, .top-arrow{ background-image:url(../images/topbar-icons.png); background-repeat:no-repeat}
+/*快捷导航*/
+.nav-list{white-space:nowrap; float:left;}
+.nav-list a{line-height:30px;padding:0px 12px;color:#333; text-decoration:none;}
+.nav-list a:hover{color:#ff3232}
+
+/*注册登录用户信息*/
+.user-info{ white-space:nowrap; color:#333; float:right}
+.user-info li { white-space:nowrap;padding:0px 9px; line-height:30px;float:left}
+.user-info li a{ color:#333;text-decoration:none}
+.user-info li a:hover{ color:#ff3232;}
+.user-info li.top-icon{width:15px; padding:0px 5px; text-indent:-99999px}
+.user-info li.top-icon a{ width:15px; background-image:url(../images/topbar-icons.png); display:block}
+.user-info li.top-icon a.topmsg{background-position:center -86px; }
+.user-info li.top-icon a.topremind{background-position:center -124px;}
+.user-info li.top-icon a.topmsg-new{background:url(../images/msg-icon.gif) 0px 10px no-repeat}
+.user-info li.top-icon a.topremind-new{background:url(../images/remind-icon.gif) 0px 9px no-repeat}
+/*个人信息窗口*/
+.user-info li.user-more { background-position:right -24px; padding-top:0px;padding-right:15px; margin-right:5px;}
+.top-menus{width:270px; display:none; padding:10px; background:#fff; color:#333; font-size:12px; line-height:24px; border:1px #ccd1d9 solid;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);position:absolute; top:31px; right:0px; z-index:999}
+.user-info li.hover{background-position:right -53px; }
+.user-info li.hover .top-menus{ display:block}
+.top-arrow{ width:12px; height:7px; display:block; background-position:0px -170px; position:absolute; top:-7px; left:180px; z-index:999999}
+.user-part{ border-bottom:1px #ddd solid; padding-bottom:6px; margin-bottom:8px; line-height:24px;}
+.user-part .user-img{ margin-right:10px; float:left}
+.user-part .user-img img{ width:40px; height:40px; padding:2px; border:1px #ddd solid}
+.user-part h2{ font-size:12px; color:#333; }
+.user-part h2 span{ font-weight:normal; color:#00f}
+.top-menus .user-btn a{ background:#4096ee; line-height:22px; padding:3px 8px; border:1px #1c6cbe solid; color:#fff; margin-right:12px}
+.top-menus .user-btn a:hover{ background:#1a85f3; color:#fff; text-decoration:none}
+.top-menus ul{line-height:26px; overflow:hidden;zoom:1}
+.top-menus ul li{ width:90px; padding:0px; line-height:26px; text-align:left; float:left}
+.top-menus .menu-list1, .top-menus .menu-list2{ margin:8px 0px; padding-top:8px; border-top:1px #dfe2e7 dashed}
+.top-menus .menu-list1 a, .top-menus .menu-list2 a, .top-menus a, .user-part p a{color:#36c}
+.top-menus .menu-list3{ padding-top:8px; border-top:1px #dfe2e7 dashed }
+.top-menus .menu-list3 li a{ color:#666}
+.top-menus ul li a:hover, .user-part p a:hover{ color:#ff3232; text-decoration:underline}

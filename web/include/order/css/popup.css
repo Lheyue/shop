@@ -1,0 +1,57 @@
+﻿/*遮罩层*/
+.allOverlay{ width:100%; height:100%;position:fixed; left:0; top:0; background:url(../images/b-bg.png) repeat;z-index:99998}
+
+/*带透明背景的弹窗*/
+.popup-bg{ width:360px; margin-left:-180px; padding:5px; position:fixed; left:50%; top:35%; color:#666;background:url(../images/popup-bg.png) repeat;z-index:99999}
+.popup-bg1{ width:360px;  padding:5px; position:fixed; right:0; bottom:0; color:#666; background:url(../images/popup-bg.png) repeat;z-index:99999}
+* html,* html body{background-image:url(../images/9dc6bdecbfbc40d082b4ae3ceb8c0471.gif);background-attachment:fixed}
+* html .popup-bg{position:absolute;top:expression(document.documentElement.scrollTop+document.documentElement.clientHeight/2-this.clientHeight/2);}
+.popup{ border:1px solid #e7e7e7;background:#fff;overflow: hidden;}
+.popup i{ color:#f50;}
+.popup-title { height:30px; line-height:30px; position:relative; border-bottom: 1px solid #dedede;border-top: 1px solid #fff; font-size:12px; padding:0px 10px; overflow: hidden; background:#f6f6f6}
+.ico-close {width:12px;height:12px;position: absolute; right:10px;top:8px;background: url(../images/ico-close.gif) 0 0 no-repeat;text-indent: -9999px;overflow: hidden;display: block}
+.ico-close:hover {background-position: 0px -20px}
+.popup-cont{padding:15px; line-height:24px;}
+.popup-cont a{ color:#36c}
+.popup-foot{ height:24px; padding:6px 15px; padding-bottom:10px;}
+.popup-foot a{ color:#36c; line-height:24px;}
+.popup-btn{ margin:10px; overflow:hidden; zoom:1}
+
+.btn{ background:#ddd; color:#333; line-height:24px; padding:3px 12px; border-radius:3px; cursor:pointer}
+.btn:hover{ background:#ccc}
+.btn-orange, .btn-orange:hover, .btn-red, .btn-red:hover{color:#fff; text-decoration: none}
+.btn-orange{ background:#f63; color:#fff; margin-right:6px;}
+.btn-orange:hover{ background:#f93e00; color:#fff;}
+.btn-red{background:#e44535;border: 1px solid #e34030;}
+.btn-red:hover{background:#f66;border: 1px solid #e34030;}
+
+/* 用于奖励提示等弹出层提示 */
+.popupcredit {position: fixed;top: 50%;left: 50%;margin-left: -100px; z-index:99}
+	.pc_l, .pc_c, .pc_inner, .pc_r { width: 29px; height: 56px; line-height: 56px; background: url(../images/popupcredit-bg.gif) no-repeat 0 0; float:left }
+	.pc_c { width: 200px; background-position: 0 -56px; background-repeat: repeat-x; }
+	.pc_inner {width:100%; text-align: center;background-position: 50% -112px; }
+	.pc_inner i { margin-right: 10px; font-size: 12px; font-style: normal; color: #fff; font-weight: 400; }
+	.pc_inner span { margin-right: 15px; color: #FFEA97; font-size: 14px; font-weight: 700; }
+	* html .pc_inner span { display: inline-block; }
+	.pc_inner span em { color:#fff; font-size: 18px; font-weight: 400; }
+	.pc_r { background-position: -30px 0; }
+
+/*-- QQ在线客服 --*/
+.box_os .os_x, .box_os .osqq, .ico_os, .ico_gt, .ico_pp, .osqq .qq{ background:url(../images/kf.gif) no-repeat; color:#666}
+.box_os{ height:auto; overflow:hidden; width:131px; position:fixed; right:0; top:150px; _position:absolute; z-index:9999;display:none}
+.box_os .os_x{background-position:2px 2px; width:18px; height:20px; float:right; display:inline; cursor:pointer}
+.box_os .osqq{ width:129px; border:1px solid #D1D1D1; background-color:#fff; background-position:0 -120px; clear:both; padding:37px 0 8px 0; text-align:center}
+.box_os .osqq p{ height:auto; line-height:20px;width:129px; margin-top:8px}
+.box_os .osqq p strong{ color:#666}
+.box_os .osqq img{ padding:7px 0 3px 0}
+.box_os .osqq p em{ color:#999; display:block}
+.box_os .osqq p span{ color:#547816; display:block}
+.box_os .osqq .qq{ background-position:-140px -120px; display:block; width:77px; height:22px; margin:0 auto; margin-top:8px; cursor:pointer}
+.acbox{ width:130px; overflow:hidden}
+.acbox .ico_gt{ background-position:-60px 0; border:1px solid #299ec0; border-top:0; cursor:pointer; width:60px; height:33px; float:right}
+.acbox .ico_pp{ background-position:-60px -60px; border:1px solid #81b140; border-top:0; cursor:pointer; width:60px; height:33px; float:right; margin:0 2px}
+.onlineService{ background:none; display:none; width:39px; *width:84px; height:178px; ;position:fixed; right:0; top:150px; _position:absolute;z-index:9999}
+.onlineService .ico_os{ background-position:-2px -20px; border:1px solid #c7c7c7; cursor:pointer; width:39px; height:98px; float:right}
+.onlineService .ico_gt{ background-position:right 0; border:1px solid #299ec0; cursor:pointer; width:39px; height:37px; float:right; clear:both}
+.onlineService .ico_pp{ background-position:right -60px; border:1px solid #81b140; cursor:pointer; width:39px; height:37px; float:right; margin:0 0 1px 0; clear:both}
+.box_os .osqq p span a{color:#557917}
